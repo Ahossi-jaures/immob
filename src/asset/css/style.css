@@ -1,0 +1,191 @@
+/*login style*/
+
+body{ 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.col-md-6 {
+   margin-top: 7em; 
+   margin-left: 25%;
+   position: relative;
+}
+
+.id-header{
+    font-size: 8em;
+    text-align: center;
+    border: solid 2px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15%;
+    color: #fff;
+    background-color: grey;
+}
+
+.col-md-10{
+    margin-top: 1em;
+    margin-left: 8%;
+}
+
+.btn-lg{
+    margin-left:  30%;
+    border-radius: 10px;
+}
+
+.passForget{
+     margin-top: 2em; 
+     margin-left: 30%;
+     margin-top: 15px;
+}
+
+.passForget a{
+    font-size: 19px;
+    color: darkgray;
+}
+
+/*--------------------------------------------------*/
+
+/*Navbar style*/
+
+.Container-fluid{
+    background-color: #16B84E;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 140px;
+}
+
+/*vertical navbar*/
+.navbar-global {
+    background-color: indigo;
+  }
+  
+  .navbar-global .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-global .navbar-user > li > a
+  {
+    color: white;
+  }
+  
+  .navbar-primary {
+    background-color: #333;
+    bottom: 0px;
+    margin-top: 5px;
+    left: 0px;
+    position: absolute;
+    top: 51px;
+    width: 200px;
+    z-index: 8;
+    overflow: hidden;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .navbar-primary.collapsed {
+    width: 60px;
+  }
+  
+  .navbar-primary.collapsed .glyphicon {
+    font-size: 40px;
+  }
+  
+  .navbar-primary.collapsed .nav-label {
+    display: none;
+  }
+  
+  .btn-expand-collapse {
+      position: absolute;
+      display: block;
+      left: 0px;
+      bottom:0;
+      width: 100%;
+      padding: 8px 0;
+      border-top:solid 1px #666;
+      color: grey;
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  .btn-expand-collapse:hover,
+  .btn-expand-collapse:focus {
+      background-color: #222;
+      color: white;
+  }
+  
+  .btn-expand-collapse:active {
+      background-color: #111;
+  }
+  
+  .navbar-primary-menu,
+  .navbar-primary-menu li {
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size: 15px;
+  }
+  
+  
+
+  .navbar-primary-menu li a {
+    display: block;
+    padding: 10px 18px;
+    text-align: left;
+    border-bottom:solid 1px #444;
+    color: #ccc;
+    font-size: 15px;
+  }
+
+  .navbar-primary-menu li a .menu{
+      padding-top: 5px;
+  }
+  
+  .navbar-primary-menu li a .menu li{
+      padding-bottom: 5px;
+  }
+
+   /*footer*/
+  .navbar-primary-menu .info{
+       
+      position: relative;
+      margin-top: 2em;
+      height: 65px;
+      color: #fff;
+      font-size: 15px;
+      text-align: center;
+       
+  }
+
+  /*end footer*/
+  
+  .navbar-primary-menu li a:hover {
+    background-color: rgb(70, 54, 54);
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .navbar-primary-menu li a:hover .glyphicon {
+    color: orchid;
+  }
+ 
+
+   /*----*/
+  .main-content {
+    margin-top: 60px;
+    margin-left: 200px;
+    padding: 20px;
+  }
+
+  .main-content img{
+      position: relative;
+      width: 34%;
+  }
+  
+  .collapsed + .main-content {
+    margin-left: 60px;
+  }
